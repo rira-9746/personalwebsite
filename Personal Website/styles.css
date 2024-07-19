@@ -324,3 +324,53 @@ footer {
         display: none;
     }
 }
+.contact-terminal {
+    margin-top: 4rem;
+}
+
+.contact-terminal .terminal-window {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact-terminal .terminal-content {
+    padding: 20px;
+    font-family: 'Fira Code', monospace;
+    color: #f8f8f2;
+}
+
+.contact-terminal .terminal-line {
+    margin-bottom: 10px;
+}
+
+.contact-terminal .prompt {
+    color: #50fa7b;
+    margin-right: 10px;
+}
+
+.contact-terminal .link-line {
+    margin-left: 20px;
+}
+
+.contact-terminal a {
+    color: #8be9fd;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.contact-terminal a:hover {
+    color: #ff79c6;
+}
+
+.contact-terminal .blink {
+    animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+}
+
+.contact-terminal .cursor {
+    font-weight: bold;
+}
