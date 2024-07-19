@@ -209,4 +209,8 @@ console.log(fibonacci(10));
     
         typeLine();
     });
+    window.addEventListener('load', () => {
+    window.scrollTo(0, 0);
+});
+
 });
